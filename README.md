@@ -11,6 +11,8 @@ content/
   dispatch/   long-form articles
   radar/      short updates
   events/     meetups, webinars, workshops
+  projects/   community projects
+  training/   practical sessions and clinics
 ```
 
 ## File naming
@@ -112,3 +114,5 @@ Validation checks frontmatter shape, required fields, enums, dates, tags, URLs, 
 2. Run validation
 3. Commit
 4. Push to `main`
+
+The site reads these folders by name, so keep the folder names in sync with the site sections.
